@@ -20,6 +20,10 @@ public class AsyncTaskExample extends AppCompatActivity {
         asyncTask.execute("Yo Matherfucker");
     }
 
+    public void onClick(View v) {
+        //TODO
+    }
+
 }
 
 class MyAsyncTask extends AsyncTask<String, Integer, Integer> {
